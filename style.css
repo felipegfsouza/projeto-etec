@@ -1,0 +1,13 @@
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+
+img{
+    display: flex;
+    
+}
+
+.contents {
+   float: left;
+   margin: 20px;
+}
