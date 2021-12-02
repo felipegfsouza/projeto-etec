@@ -1,13 +1,36 @@
 *{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.imagem-landing {
+    width: 400px;
 }
 
 img{
     display: flex;
-    
 }
+
+h1 {
+    padding: 32px;
+}
+.card-image {
+    width: 291px;
+    height: 144px;
+}
+
+.texto {
+    width: 470px;
+}
+
+.image-content{
+    float: right;
+    margin: -255px 200px 10px 10px
+}
+
 
 .contents {
    float: left;
    margin: 20px;
 }
+
