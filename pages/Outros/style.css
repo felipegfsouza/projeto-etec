@@ -1,6 +1,10 @@
-*{
-    margin: 25px;
-    font-family: 'JetBrains Mono', monospace;
+h1 {
+    text-align: center;
+  padding: 15px;
+}
+
+.container {
+    margin: 85px;
 }
 
 .fab{
