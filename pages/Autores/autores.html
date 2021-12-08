@@ -4,31 +4,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <h1>Criadores</h1>
-  <h2>Website</h2>
-  <h3>Felipe Gabriel</h3>
-  <p>Nosso querido programador,o cara é foda bicho</p>
-<img src="./images/img felipe.jpg" alt=""> <img src="./images/cisco.jpg" alt="">
-  <h3>Elvys Gabriel</h3>
-  <p>Quebra-galho do grupo, manja um pouquinho de tudo</p>
-  <img src="./images/img elvys.jpg" alt=""> <img src="./images/elvys.jpg" alt="">
-  <h2>Windons</h2>
-  <h3>Bruno Augusto</h3>
-  <p>Topa todas as maluquices</p>
-  <img src="./images/img bruno.jpg" alt=""> <img src="./images/mamaco.jpg" alt="">
-  <h2>Mac/OS</h2>
-  <h3>Giovanna lucio</h3>
-  <p>a artista do grupo do grupo</p>
-  <img src="./images/img gih.jpg" alt=""> <img src="./images/lucio.jpg" alt="">
-  <h2>Linux</h2>
-  <h3>Jessica Bilar(bilhar)</h3>
-  <p>Mãezona do grupo,Não gosta de palavroes
-  </p>
-  <img src="./images/img  jessica.jpg" alt=""> <img src="./images/mae.jpg" alt="">
-  <h2>marioaprovações</h2>
-  <img src="./images/mario.png" width="400" height="400" alt="">
+
+  <div class="about-section">
+    <h1>Autores página</h1>
+    <p>Esta página contem todos os mitos e lendas </p>
+    <p>Que se envolveram e desenvolveram neste magnifico trabalho.</p>
+  </div>
+  
+  <h2 style="text-align:center">Nosso time</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="./images/cisco.jpg" alt="felipe" style="width:100%">
+        <div class="container">
+          <h2>felipe Gabriel</h2>
+          <p class="title">CEO & DEVELOPER</p>
+          <p>Nosso querido programador,o cara é foda bicho</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="./images/img elvys.jpg" alt="elvys" style="width:100%">
+        <div class="container">
+          <h2>Elvys Gabriel</h2>
+          <p class="title">CTO & DEVELOPER</p>
+          <p>Quebra-galho do grupo, manja um pouquinho de tudo</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="./images/img bruno.jpg" alt="Bruno" style="width:100%">
+        <div class="container">
+          <h2>Bruno Augusto</h2>
+          <p class="title">DEV OPS</p>
+          <p>Topa todas as maluquices</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./images/lucio.jpg" alt="Giovanna lucio" style="width:100%">
+        <div class="container">
+          <h2>Giovanna lucio</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./images/mae.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Jessica Bilar</h2>
+          <p class="title"> Developer & Designer</p>
+          <p>Mãezona do grupo,Não gosta de palavroes.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">
+        <img src="./images/mario.png" alt="John" style="width:100%">
+        <div class="container">
+          <h2>marioaprovações</h2>
+          <p class="title">Designer</p>
+          <p>Mestre lenda um  mito ele ajudou demais e merece estar aqui</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fab"  ontouchstart="">
+    <button class="main" onclick="goback()">
+      
+    </button>
+    
+  </div>
+
+
+  <script src="main.js"></script>
+
+
+
+
+ 
 </body>
 </html>
